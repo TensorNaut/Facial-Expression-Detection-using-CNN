@@ -6,7 +6,7 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.applications.mobilenet_v2 import decode_predictions
 
 # Load the trained model
-model = load_model("trained_model.h5")
+model = load_model("best_model.keras")
 
 # Define the emotion labels
 emotion_labels = {0: 'Angry', 1: 'Disgust', 2: 'Fear', 3: 'Happiness', 4: 'Sad', 5: 'Surprise', 6: 'Neutral'}
